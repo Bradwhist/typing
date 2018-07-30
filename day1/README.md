@@ -4,12 +4,11 @@
 
 - \#2. Simple Counter: [Videp](https://vimeo.com/282272060); [Codepen](http://codepen.io/rick-shar/pen/qrBwRz)
 
-- \#3. [Canvas From Scratch](https://vimeo.com/282272156); [Finished codepen](https://codepen.io/smitgw11/pen/oGqEEr?editors=1010)
+- \#3. Canvas From Scratch: [Video](https://vimeo.com/282272156); [Finished codepen](https://codepen.io/smitgw11/pen/oGqEEr?editors=1010)
 
-- \#4. [Connecting Components with react-redux](https://vimeo.com/282278132); [Finished codepen](https://codepen.io/rick-shar/pen/mmYxGP?editors=0011)
+- \#4. Connecting Components with react-redux: [Video](https://vimeo.com/282278132); [Finished codepen](https://codepen.io/rick-shar/pen/mmYxGP?editors=0011)
 
-- \#5. Learn about redux from its author, Dan Abramov:
-[Redux Tutorials](https://egghead.io/courses/getting-started-with-redux)
+- \#5. Learn about redux from its author, Dan Abramov: [Redux Tutorials](https://egghead.io/courses/getting-started-with-redux)
 
 # Exercises:
 
@@ -17,7 +16,7 @@
 
 ### Getting our feet wet with React-Redux
 
- So far we have seen how to convert our simple [color toggle redux app]() to react-redux. The motivation for converting from using React alongside Redux to integrating React and Redux using [React-Redux]() (also called the React-Redux "bindings") was to remove the need to re-render our entire react app on each store change.
+ So far we have seen how to convert our simple [color toggle redux app](https://codepen.io/ariabuckles/pen/YjYYZx?editors=0010) to react-redux. The motivation for converting from using React alongside Redux to integrating React and Redux using [React-Redux](https://redux.js.org/basics/usagewithreact) (also called the React-Redux "bindings") was to remove the need to re-render our entire react app on each store change.
  Before we "migrated" our color toggle redux app we had to subscribe the `render()` method to the store and each time we clicked the `ColorSquare` the `render()` method forced a new call to `ReactDOM.render()`. React-Redux bindings let us use `connect` in place of `store.subscribe()`. This way each component can be told to re-render instead of every component being forced to re-render.
 
  In this exercise we will get more practice with using the React-Redux bindings by applying the same steps to another simple redux app we have already seen ([Simple Redux Counter](https://codepen.io/rick-shar/pen/qrBwRz)).
